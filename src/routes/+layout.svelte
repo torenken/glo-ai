@@ -2,4 +2,6 @@
 	import '../app.css';
 </script>
 
-<slot />
+<div class="flex flex-col items-center max-w-3xl mx-auto">
+	<slot />
+</div>
