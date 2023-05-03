@@ -8,12 +8,6 @@ export const config: Config = {
 	runtime: 'edge'
 };
 
-function sleep(ms: number) {
-	return new Promise((resolve) => {
-		setTimeout(resolve, ms);
-	});
-}
-
 export const POST: RequestHandler = async ({ request }) => {
 	try {
 		const requestData = await request.json();
