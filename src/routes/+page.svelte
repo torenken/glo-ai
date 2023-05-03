@@ -91,7 +91,8 @@
 			Im Februar 2023 hielt der NEOS-Abgeordnete Niko Swatek im Landtag Steiermark eine Rede zum
 			Thema Schulstraßen, die er von ChatGPT schreiben ließ, wie er nach zwei weiteren Rednern
 			bekanntgab. Die erste von ChatGPT geschriebene Rede im Europaparlament hielt der
-			Volt-Abgeordnete Damian Boeselager im Februar 2023. Boeselager ließ die Software eine Rede
+			<a href='/' class="link" on:click|preventDefault={() => handleSubmit('Volt-Abgeordnete')}>Volt-Abgeordnete</a>
+			Damian Boeselager im Februar 2023. Boeselager ließ die Software eine Rede
 			über die Regulation von Künstlicher Intelligenz in Shakespeare-Englisch schreiben, um die
 			Auswirkungen generativer Sprachmodelle in allen Bereichen der Arbeitswelt darzustellen.
 		</p>
